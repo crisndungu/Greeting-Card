@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffd6e0; /* Soft pink background */
+    background-color: #eaf4fc; /* Soft pastel blue background */
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Ensure full viewport height coverage */
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff; /* White container background */
+    background-color: #fff;
 }
 
 h1 {
@@ -30,4 +30,19 @@ p {
 
 p:last-child {
     margin-bottom: 0;
+}
+
+.btn {
+    background-color: #ff7eb9; /* Pink button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff5b9e; /* Darker pink on hover */
 }
